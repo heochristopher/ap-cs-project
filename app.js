@@ -1,9 +1,14 @@
-var requestOptions = {
-    method: 'GET',
-    redirect: 'follow'
-  };
-  
-  fetch("https://random-d.uk/api/v2/random", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+
+async function getImage() {
+  try {
+   
+      const data = await fetch("https://randomfox.ca/floof/")
+   
+    console.log(data.json());
+  } catch (error) {
+    console.log(error);
+    alert("oops");
+  }
+}
+
+getImage()
