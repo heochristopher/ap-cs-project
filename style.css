@@ -2,7 +2,30 @@ body {
     background-color: #0d2b67;
     color: #fff;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 img {
     width: 15%;
+}
+
+input {
+    font-size: 1rem;
+    margin: 0.5rem;
+    width: 10%;
+}
+
+li {
+    list-style: none
+
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+#values-container {
+    display: flex;
+    flex-direction: column;
 }
