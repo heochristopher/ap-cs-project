@@ -10,11 +10,11 @@
     <h1>Linear Equation Values Calculator</h1>
     <input type="number" name="slope" id="slope-input" placeholder="m">
     <input type="number" name="y-intercept" id="y-intercept-input" placeholder="b">
-    <input type="number" name='length' id='length-input' placeholder='length'>
+    <input type="number" name='length' id='length-input' placeholder='length' min='0'>
     <h3 id="submit-btn">Calculate</h3>
     <div id="values-container">
-        <div id='x-values'></div>
-        <div id='y-values'></div>
+        <div class="values" id='x-values'></div>
+        <div class='values' id='y-values'></div>
     </div>
     <script src="app.js"></script>
 </body>
