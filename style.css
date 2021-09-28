@@ -14,8 +14,8 @@ input {
 }
 
 li {
-    list-style: none
-
+    list-style: none;
+    margin: 0.5rem;
 }
 
 h3:hover {
@@ -24,7 +24,7 @@ h3:hover {
 
 #values-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .values {
