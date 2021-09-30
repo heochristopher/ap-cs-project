@@ -22,9 +22,13 @@ h3:hover {
     cursor: pointer;
 }
 
-#values-container {
+#values-container #slope-container {
     display: flex;
     flex-direction: row;
+}
+
+.container {
+    display: flex;
 }
 
 .values {
