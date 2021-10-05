@@ -40,3 +40,7 @@ h3:hover {
     justify-content: center;
     align-items: center;
 }
+
+#equation {
+    margin: 1rem;
+}
