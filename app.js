@@ -44,7 +44,7 @@ for(let i =0; i <= length; i++) {
   xValues.push(i)
 }
 
-//alert if any input is left blank OR lenth is 0
+//alert if any input is left blank OR length is 0
 if(xValues.length === 0 || yValues.length === 0 || length === 'undefined') {
   alert('Enter all values')
 }
